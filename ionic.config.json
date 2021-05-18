@@ -1,0 +1,8 @@
+{
+  "name": "PPM",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "fc4b7056"
+}
