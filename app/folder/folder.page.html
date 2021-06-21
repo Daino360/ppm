@@ -17,50 +17,170 @@
   <!--<div id="container">
     <strong class="capitalize">{{ folder }}</strong>
     <p>Explore <img target="_blank" rel="noopener noreferrer" src="../../assets/icon/mock%20up.png" width="550" height="700"></p>
-  </div> --> 
+  </div> -->
     
-  <div id="buttonA">
-      <ion-button size="large" color="success" shape ="round">A
-      </ion-button>
-  </div>
+  <!--<div id="container">
+    <strong class="capitalize">{{ folder }}
+    </strong>
+  </div> -->
+
     
-  <div id="buttonB">
-    <ion-button size="large" color="warning" shape ="round">B
-    </ion-button>
-  </div>
     
-  <div id="buttonX">
-    <ion-button size="large" color="danger" shape ="round">X
-    </ion-button>
-  </div>      
-  <div id="buttonY">
-    <ion-button size="large" shape ="round">Y
-    </ion-button>
-  </div>    
-      
-  <div id="buttonUP">
-    <ion-button size="large" shape ="round" color="light">
-        <ion-icon name="chevron-up-outline"></ion-icon> 
-    </ion-button>
-  </div>    
-      
-  <div id="buttonDOWN">
-    <ion-button size="large" shape ="round" color="light">
-        <ion-icon name="chevron-down-outline"></ion-icon> 
-    </ion-button>
-  </div> 
-      
-  <div id="buttonRIGHT">
-    <ion-button size="large" shape ="round" color="light">
-        <ion-icon name="chevron-forward-outline"></ion-icon> 
-    </ion-button>
-  </div> 
-      
-  <div id="buttonLEFT">
-    <ion-button size="large" shape ="round" color="light">
-        <ion-icon name="chevron-back-outline"></ion-icon> 
-    </ion-button>
-  </div>   
+  <ion-slides pager="true">
+     <ion-slide>
+          <div class="slide">
+            <h2></h2>
+          </div>
+          <img src="../../assets/Slide1.jpg">
+    
+          <div id="buttonA">
+              <ion-button size="large" color="danger" shape ="round" (click) = A_Click()>A
+              </ion-button>
+          </div>
+
+          <div id="buttonB">
+            <ion-button size="large" color="danger" shape ="round" (click) = B_Click()>B
+            </ion-button>
+          </div>
+
+          <div id="buttonX">
+            <ion-button size="large" color="danger" shape ="round" (click) = X_Click()>X
+            </ion-button>
+          </div>     
+
+          <div id="buttonY">
+            <ion-button size="large" color="danger" shape ="round" (click) = Y_Click()>Y
+            </ion-button>
+          </div>    
+
+          <div id="buttonUP">
+            <ion-button size="large" shape ="round" color="light" (click) = UP_Click()>
+                <ion-icon name="chevron-up-outline"></ion-icon> 
+            </ion-button>
+          </div>    
+
+          <div id="buttonDOWN">
+            <ion-button size="large" shape ="round" color="light" (click) = DOWN_Click()>
+                <ion-icon name="chevron-down-outline"></ion-icon> 
+            </ion-button>
+          </div> 
+
+          <div id="buttonRIGHT">
+            <ion-button size="large" shape ="round" color="light" (click) = RIGHT_Click()>
+                <ion-icon name="chevron-forward-outline"></ion-icon> 
+            </ion-button>
+          </div> 
+
+          <div id="buttonLEFT">
+            <ion-button size="large" shape ="round" color="light" (click) = LEFT_Click()>
+                <ion-icon name="chevron-back-outline"></ion-icon> 
+            </ion-button>
+          </div>
+    </ion-slide>
+    
+    <ion-slide>
+          <div class="slide">
+            <h2></h2>
+          </div>
+          <img src="../../assets/Slide2.jfif" style="height: 100%; width: 100%">
+        
+    
+          <div id="buttonA">
+              <ion-button size="large" color="tertiary" shape ="round" (click) = A_Click()>A
+              </ion-button>
+          </div>
+
+          <div id="buttonB">
+            <ion-button size="large" color="tertiary" shape ="round" (click) = B_Click()>B
+            </ion-button>
+          </div>
+
+          <div id="buttonX">
+            <ion-button size="large" color="tertiary" shape ="round" (click) = X_Click()>X
+            </ion-button>
+          </div>     
+
+          <div id="buttonY">
+            <ion-button size="large" color="tertiary" shape ="round" (click) = Y_Click()>Y
+            </ion-button>
+          </div>    
+
+          <div id="buttonUP">
+            <ion-button size="large" shape ="round" color="light" (click) = UP_Click()>
+                <ion-icon name="arrow-up-outline"></ion-icon> 
+            </ion-button>
+          </div>    
+
+          <div id="buttonDOWN">
+            <ion-button size="large" shape ="round" color="light" (click) = DOWN_Click()>
+                <ion-icon name="arrow-down-outline"></ion-icon> 
+            </ion-button>
+          </div> 
+
+          <div id="buttonRIGHT">
+            <ion-button size="large" shape ="round" color="light" (click) = RIGHT_Click()>
+                <ion-icon name="arrow-forward-outline"></ion-icon> 
+            </ion-button>
+          </div> 
+
+          <div id="buttonLEFT">
+            <ion-button size="large" shape ="round" color="light" (click) = LEFT_Click()>
+                <ion-icon name="arrow-back-outline"></ion-icon>
+            </ion-button>
+          </div>
+    </ion-slide>
+    <ion-slide>
+          <div class="slide">
+            <h2></h2>
+          </div>
+          <img src="../../assets/Slide3.jpg" style="height: 100%; width: 100%">        
+    
+          <div id="buttonA">
+              <ion-button size="large" color="success" shape ="round" (click) = A_Click()>A
+              </ion-button>
+          </div>
+
+          <div id="buttonB">
+            <ion-button size="large" color="success" shape ="round" (click) = B_Click()>B
+            </ion-button>
+          </div>
+
+          <div id="buttonX">
+            <ion-button size="large" color="success" shape ="round" (click) = X_Click()>X
+            </ion-button>
+          </div>     
+
+          <div id="buttonY">
+            <ion-button size="large" color="success" shape ="round" (click) = Y_Click()>Y
+            </ion-button>
+          </div>    
+
+          <div id="buttonUP">
+            <ion-button size="large" shape ="round" color="light" (click) = UP_Click()>
+                <ion-icon name="caret-up-outline"></ion-icon> 
+            </ion-button>
+          </div>    
+
+          <div id="buttonDOWN">
+            <ion-button size="large" shape ="round" color="light" (click) = DOWN_Click()>
+                <ion-icon name="caret-down-outline"></ion-icon> 
+            </ion-button>
+          </div> 
+
+          <div id="buttonRIGHT">
+            <ion-button size="large" shape ="round" color="light" (click) = RIGHT_Click()>
+                <ion-icon name="caret-forward-outline"></ion-icon> 
+            </ion-button>
+          </div> 
+
+          <div id="buttonLEFT">
+            <ion-button size="large" shape ="round" color="light" (click) = LEFT_Click()>
+                <ion-icon name="caret-back-outline"></ion-icon>
+            </ion-button>
+          </div>
+    </ion-slide>
+ </ion-slides>
+    
 
 
 </ion-content>

@@ -2,7 +2,7 @@ ion-menu-button {
   color: var(--ion-color-primary);
 }
 
-#container {
+#container { //interfaccia testo centrale
   text-align: center;
   position: absolute;
   left: 0;
@@ -42,7 +42,7 @@ ion-menu-button {
   left: 0;
   right: 39%;
   top: 50%;
-  transform: translateY(+265%);    
+  transform: translateY(+265%);
 }
 
 #buttonX {
