@@ -1,22 +1,33 @@
 # PPM
-Core project developed as part of my personal/academic software projects.
 
-## Project Overview
-PPM is a lightweight project implementing the core logic and functionality 
-for using a UI controller on an android app.
+Core project developed during my Bachelor's degree in Computer Engineering.
 
-## Technologies
-- Javascript
-- Typescript
-- HTML
-- SCSS
+## Project Overview  
+PPM is the core component of a project designed to connect a Raspberry Pi to a
+smartphone via HTTP. The Raspberry Pi hosts the main logic and exposes endpoints
+used to receive commands from a mobile application acting as a game controller.
 
-## Notes
-This repository contains the core logic. 
-A HTTP interface / demo built on top of this project is available at `ppm-http`.
+The project was developed as an academic exercise to explore client–server
+communication and web technologies in a constrained hardware environment.
 
-## What I Learned
-- Ionic
-- Typescript
-- Development UI
-- Structuring code for extensions and future development
+## Technologies  
+- JavaScript  
+- TypeScript  
+- HTML  
+- CSS  
+- HTTP-based communication  
+
+## Project Structure  
+This repository contains the core logic running on the Raspberry Pi, including
+HTTP endpoints and the logic required to process commands received from the
+mobile controller.
+
+## Notes  
+This repository represents the server-side and core logic of the project.  
+The mobile controller application is implemented in the `ppm-http` repository.
+
+## What I Learned  
+- Client–server communication over HTTP  
+- Designing simple APIs for device interaction  
+- Working with web technologies on embedded hardware  
+- Structuring a project split across multiple components  
